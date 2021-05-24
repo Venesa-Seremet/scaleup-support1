@@ -2,7 +2,6 @@
 session_start(); 
 include "db_conn.php";
 
-
 if (isset($_POST['uname']) && isset($_POST['password'])) {
 
 	function validate($data){
@@ -11,7 +10,6 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 	   $data = htmlspecialchars($data);
 	   return $data;
 	}
-
 	$uname = validate($_POST['uname']);
 	$password = validate($_POST['password']);
 
