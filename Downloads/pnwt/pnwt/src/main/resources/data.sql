@@ -1,0 +1,1 @@
+insert into Car (id,carId,customerId) VALUES (1,1234,12345,false);
